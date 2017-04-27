@@ -22,8 +22,16 @@ permalink: /intellectual
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <div class="list-post-date">
+    <span class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
+    </span>
+    <div class="post-excerpt">
+      {% if post.content contains '<!--more-->' %}
+        {{ post.content | split:'<!--more-->' | first }}
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+        <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="more-link" title="read more">read more</a></p>
     </div>
   </div>
 {% endfor %}

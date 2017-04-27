@@ -23,6 +23,14 @@ layout: default
     <span class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
     </span>
+    <div class="post-excerpt">
+      {% if post.content contains '<!--more-->' %}
+        {{ post.content | split:'<!--more-->' | first }}
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+        <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="more-link" title="read more">read more</a></p>
+    </div>
   </div>
 {% endfor %}
 {% endif %}
