@@ -272,11 +272,12 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
 
   @media (min-width: 38rem){
-    padding: 5rem 1rem;
+    padding: 3rem 1rem;
   }
 }
 
 .masthead {
+  text-align: center;
 
   &-title {
     font-weight: 300;
@@ -318,7 +319,7 @@ tbody tr:nth-child(odd) th {
     a {
       color: #aaa;
       font-weight: 300;
-      text-transform: lowercase;
+      // text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
@@ -366,12 +367,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .list {
-  &-post-title {
-    margin-bottom: .25rem;
 
+  &-post-title {
+
+    display: inline-block;
     a {
       color: #333;
-
       &:hover,
       &:focus {
         text-decoration: none;
@@ -382,7 +383,14 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 1rem;
     font-size: .75rem;
     text-transform: uppercase;
+    float: right;
+    display: inline-block;
+    color: #777777;
   }
+}
+
+.list-item {
+  padding: 5px 3px;
 }
 
 .projects-list {
@@ -395,7 +403,7 @@ tbody tr:nth-child(odd) th {
 .h-logo {
   display: inline-block;
   margin-bottom: 0;
-  vertical-align: bottom;
+  // vertical-align: bottom;
   height: 100px;
 }
 
