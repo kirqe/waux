@@ -5,7 +5,7 @@ categories: [collective]
 
 # Quirini Tiberinus nisi
 
-![](http://i.imgur.com/owi16bK.jpg)
+![](http://ui.ggimgs.net/categories/85.jpg)
 
 ## Mater si placandam suaque horrore soceri duorum
 
