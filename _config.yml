@@ -14,6 +14,8 @@ twitter:
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
+disqus:
+  username: waux
 
 # URL
 baseurl:            "/waux"

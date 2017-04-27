@@ -11,6 +11,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'EB Garamond';
 }
 
 html {
@@ -50,16 +51,26 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+
 h1 {
-  font-size: 2rem;
+	font-family: 'Flamenco';
+	font-size: xx-large;
+	color: #EF6703;
+	text-shadow: 1px 1px 2px #AAAAAA;
 }
 
 h2 {
-  font-size: 1.6rem;
+	font-family: 'Flamenco';
+	font-size: x-large;
+	color: #0088D1;
+	text-shadow: 1px 1px 2px #AAAAAA;
 }
 
 h3 {
-  font-size: 1.3rem;
+	font-family: 'Flamenco';
+	font-size: large;
+	color: #64BB01;
+	text-shadow: 1px 1px 2px #AAAAAA;
 }
 
 h4, h5, h6 {
@@ -174,17 +185,14 @@ code {
 }
 
 pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
-  // word-wrap: break-word;
-  background-color: #f9f9f9;
+  background: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0088D1;
+  border-radius: 8px;
+  padding: 10px;
+  width: 580px;
 }
 
 pre code {
@@ -344,6 +352,17 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     text-transform: uppercase;
   }
+
+  img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EF6703;
+    border-radius: 8px;
+    padding: 1px;
+    width: 598px;
+    height: 250px;
+    object-fit: cover;
+  }
 }
 
 .list {
@@ -377,8 +396,16 @@ tbody tr:nth-child(odd) th {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: bottom;
-  height: 50px;
+  height: 100px;
 }
+
+.illustration {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+	padding: 3px 3px 3px 3px;
+}
+
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */

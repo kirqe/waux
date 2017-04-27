@@ -5,6 +5,8 @@ categories: [cognitive]
 
 # Admovique illo deformia superest grege
 
+![](http://i.imgur.com/owi16bK.jpg)
+
 ## Placet patris huius arcus primus recepto
 
 **Lorem** markdownum [Deucalion flesse](http://www.erattenues.com/), turba sunt;
