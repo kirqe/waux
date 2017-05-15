@@ -56,7 +56,7 @@ h1 {
 	font-family: 'Flamenco';
 	font-size: xx-large;
 	color: #EF6703;
-	text-shadow: 1px 1px 2px #AAAAAA;
+	text-shadow: -1px 0px 2px #AAAAAA;
 }
 
 h2 {
@@ -278,10 +278,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead {
-  text-align: center;
+  margin-bottom: 1rem;
 
   &-title {
     font-weight: 300;
+    display: inline-block;
+    vertical-align: bottom;
 
     a {
       color: #333;
@@ -316,7 +318,9 @@ tbody tr:nth-child(odd) th {
   }
 
   .masthead-nav {
-    margin-bottom: 2rem;
+    display: inline-block;
+    margin-bottom: 1.3rem;
+    font-size: 1.1rem;
 
     a {
       color: #aaa;
@@ -409,8 +413,8 @@ tbody tr:nth-child(odd) th {
 
 
 .h-logo {
-  display: inline-block;
-  margin-bottom: 0.5rem;
+  // display: inline-block;
+  // margin-bottom: 0.5rem;
   height: 100px;
 }
 
@@ -419,6 +423,17 @@ tbody tr:nth-child(odd) th {
 	border-width: 1px;
 	border-color: #888888;
 	padding: 3px 3px 3px 3px;
+}
+
+.bc {
+  text-transform: capitalize;
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 1.3rem;
+
+  &-title {
+
+  }
 }
 
 
