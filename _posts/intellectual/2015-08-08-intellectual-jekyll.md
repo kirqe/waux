@@ -1,5 +1,6 @@
 ---
 title: Post 3 intellectual
+author: John Doe
 category: intellectual
 ---
 

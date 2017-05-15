@@ -10,7 +10,7 @@ layout: default
     <span class="bc-title">{{ page.category }} > {{ page.title }}</span>
   </div>
   <div class="post-date">
-    <time>{{ page.date | date: "%m %B %Y" }}</time>
+    {{ page.author }} / <time>{{ page.date | date: "%m %B %Y" }}</time>
   </div>
   {{ content }}
   <div class="comments">

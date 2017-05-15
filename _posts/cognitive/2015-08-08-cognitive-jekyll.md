@@ -1,5 +1,6 @@
 ---
 title: Post 1 cognitive
+author: John Doe
 category: cognitive
 ---
 

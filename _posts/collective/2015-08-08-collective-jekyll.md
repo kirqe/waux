@@ -1,5 +1,6 @@
 ---
 title: Post 2 collective
+author: John Doe
 category: collective
 ---
 

@@ -11,11 +11,12 @@ html,
 body {
   margin: 0;
   padding: 0;
-    font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
 }
 
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -321,9 +322,10 @@ tbody tr:nth-child(odd) th {
     display: inline-block;
     margin-bottom: 1.3rem;
     font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
 
     a {
-      color: #aaa;
+      color: #0088D1;
       font-weight: 300;
       // text-transform: lowercase;
       -webkit-transition: all .2s ease;
@@ -357,7 +359,6 @@ tbody tr:nth-child(odd) th {
   &-date {
     margin-bottom: 2rem;
     font-size: .75rem;
-    text-transform: uppercase;
   }
 }
 
