@@ -1,6 +1,6 @@
 ---
 title: Post 3 intellectual
-categories: [intellectual]
+category: intellectual
 ---
 
 # Neque excidit prodere vestrum sollicita summis

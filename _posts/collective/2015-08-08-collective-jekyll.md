@@ -1,6 +1,6 @@
 ---
 title: Post 2 collective
-categories: [collective]
+category: collective
 ---
 
 # Quirini Tiberinus nisi

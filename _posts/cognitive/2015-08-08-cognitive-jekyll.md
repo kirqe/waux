@@ -1,6 +1,6 @@
 ---
 title: Post 1 cognitive
-categories: [cognitive]
+category: cognitive
 ---
 
 # Admovique illo deformia superest grege
