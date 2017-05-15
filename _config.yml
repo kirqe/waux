@@ -2,14 +2,15 @@
 name:               "waux"
 description:        "waux site"
 
+
+footer:
+  address: waux
+  email: waux@example.com
+
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 url:                "http//www.waux.com"
 author:             "waux"
-twitter:
-  username:         "waux"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+
 disqus:
   username: waux
 

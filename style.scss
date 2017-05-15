@@ -436,6 +436,25 @@ tbody tr:nth-child(odd) th {
   }
 }
 
+footer
+{
+  border-top: 1px solid #eaeaea;
+
+  .info {
+    color: #888888;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    font-family: 'Flamenco';
+  }
+
+  .pull {
+    &-right {
+      float: right;
+    }
+  }
+}
+
+
 
 /* Top and Bottom borders go out */
 nav.topBotomBordersOut a:before, nav.topBotomBordersOut a:after
