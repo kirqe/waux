@@ -298,7 +298,6 @@ tbody tr:nth-child(odd) th {
     span {
       color: #ddd;
     }
-
   }
 
   &-title--small {
@@ -318,7 +317,7 @@ tbody tr:nth-child(odd) th {
     }
   }
 
-  .masthead-nav {
+  &-nav {
     display: inline-block;
     margin-bottom: 1.3rem;
     font-size: 1.3rem;
@@ -327,7 +326,6 @@ tbody tr:nth-child(odd) th {
     a {
       color: #0088D1;
       font-weight: 300;
-      // text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
@@ -387,7 +385,6 @@ tbody tr:nth-child(odd) th {
 .list {
 
   &-post-title {
-
     display: inline-block;
     a {
       color: #333;
@@ -397,6 +394,7 @@ tbody tr:nth-child(odd) th {
       }
     }
   }
+
   &-post-date {
     margin-bottom: 1rem;
     font-size: .75rem;
