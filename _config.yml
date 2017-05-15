@@ -14,7 +14,7 @@ disqus:
   username: waux
 
 # URL
-baseurl:            "/waux/"
+baseurl:            "/waux"
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
