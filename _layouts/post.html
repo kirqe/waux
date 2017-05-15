@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<div class="bc">
-  <span class="bc-title">{{ page.categories.first }} > {{ page.title }}</span>
-</div>
 
 <div class="content post">
   <h1 class="post-title">{{ page.title }}</h1>
+
+  <div class="bc">
+    <span class="bc-title">{{ page.categories.first }} > {{ page.title }}</span>
+  </div>
   <div class="post-date">
     <time>{{ page.date | date: "%m %B %Y" }}</time>
   </div>
