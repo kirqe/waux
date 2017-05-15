@@ -14,7 +14,7 @@ permalink: /cognitive
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h1>
     <span class="list-post-date">
-      <time>{{ post.date | date: "%m %B %Y" }}</time>
+      {{ post.author }} / <time>{{ post.date | date: "%m %B %Y" }}</time>
     </span>
     <div class="post-excerpt">
       {% if post.content contains '<!--more-->' %}
