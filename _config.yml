@@ -2,9 +2,8 @@
 name:               "waux"
 description:        "waux site"
 
-
 footer:
-  address: waux
+  address: "waux"
   email: waux@example.com
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
@@ -13,6 +12,9 @@ author:             "waux"
 
 disqus:
   username: waux
+
+google:
+  tracking-id: '1234567'
 
 # URL
 baseurl:            "/waux"
