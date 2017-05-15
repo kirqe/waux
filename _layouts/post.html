@@ -3,15 +3,16 @@ layout: default
 ---
 
 
-<div class="content post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<div class="content post ">
+  <div class="meta clearfix">
+    <div class="breadcrumbs pull-left">
+      <span class="breadcrumbs pull-left">{{ page.category }} > {{ page.title }}</span>
+    </div>
+    <div class="post-date pull-right">
+      {{ page.author }} / <time>{{ page.date | date: "%m %B %Y" }}</time>
+    </div>
+  </div>
 
-  <div class="bc">
-    <span class="bc-title">{{ page.category }} > {{ page.title }}</span>
-  </div>
-  <div class="post-date">
-    {{ page.author }} / <time>{{ page.date | date: "%m %B %Y" }}</time>
-  </div>
   {{ content }}
   <div class="comments">
     {% include disqus.html%}
