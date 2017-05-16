@@ -1,5 +1,5 @@
 ---
-title: Post 1 cognitive
+title: random post title 2
 author: John Doe
 category: cognitive
 ---
