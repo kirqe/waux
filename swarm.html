@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /collective
+---
+
+
+<div class="content list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
+{% for post in site.categories.swarm %}
+  <div class="list-item">
+    <a href="{{ site.baseurl }}{{ post.url }}" class="clearfix">
+
+      <span class="list-post-meta pull-right">
+        {{ post.title }} / {{ post.author }} / <time>{{ post.date | date: "%m %B %Y" }}</time>
+      </span>
+
+      <div class="post-excerpt">
+        {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+          <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="more-link" title="read more">read more</a></p>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+{% endif %}
+</div>
