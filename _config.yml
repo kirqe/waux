@@ -17,7 +17,7 @@ google:
   tracking-id: '1234567'
 
 # URL
-baseurl:            "/waux"
+baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
