@@ -32,8 +32,8 @@ nav:
     href:           "/cognitive"
   - name:           "Intellectual"
     href:           "/intellectual"
-  - name:           "Collective"
-    href:           "/collective"
+  - name:           "Swarm"
+    href:           "/swarm"
 
 # Sass
 sass:

@@ -1,5 +1,5 @@
 ---
-title: Post 3 intellectual
+title: random post title 3
 author: John Doe
 category: intellectual
 ---
